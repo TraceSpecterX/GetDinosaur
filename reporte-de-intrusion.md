@@ -78,7 +78,7 @@ A las 20:25:00 terminó la conexión FIN, ACK; FIN, ACK; ACK de los **paquetes 1
 
 A las 20:25:02, en el **paquete 1268**, comenzó otra conexión al panel, desde 10.0.2.15:35084 hacia 10.0.2.23:4444. 
 
-A las 20:25:07, en el **paquete 1275**, el cliente envió el texto «administrador» en el paquete 1273, pero el servicio lo rechazó como un comando inexistente. 
+A las 20:25:07, en el **paquete 1275**, el cliente envió el texto «administrador», pero el servicio lo rechazó como un comando inexistente. 
 
 A las 20:25:10 se volvió a consultar `help` y el servidor devolvió la lista de comandos (paquetes 1281, 1283 y 1285).
 
@@ -96,7 +96,7 @@ A las 20:26:02, el cliente envió `exit` en el **paquete 1298**. El servicio res
 A las 20:26:05 terminó la conexión mediante un cierre ordenado. En el **paquete 1301**, 10.0.2.15:35084 envió FIN, ACK a 10.0.2.23:4444, iniciando el cierre. En el **paquete 1302**, el servidor respondió FIN, ACK. Finalmente, en el **paquete 1303**, el cliente confirmó con ACK. Estos paquetes muestran un cierre iniciado desde el lado del cliente, sin un RST en esta secuencia. 
 
 <img src="img/05-cierre-conexion.jpg" alt="Cierre de la conexión" width="700">
-<sub>«Respuesta del servidor que expone las credenciales; paquete 1247».</sub>
+<sub>«Cierre ordenado iniciado por el cliente; paquetes 1301–1303».</sub>
 
 
 
