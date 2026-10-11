@@ -2,7 +2,7 @@
 
 > Reconstrucción de una intrusión a partir de una captura de tráfico (PCAP) con Wireshark: desde 94 intentos de conexión rechazados hasta un panel de administración oculto que entrega las credenciales en texto plano.
 
-![Categoría](https://img.shields.io/badge/categoría-Seguridad%20en%20Redes-blue)
+![Categoría](https://img.shields.io/badge/categor%C3%ADa-Seguridad%20en%20Redes-blue)
 ![Herramienta](https://img.shields.io/badge/herramienta-Wireshark-1679A7)
 ![Estado](https://img.shields.io/badge/reto-completado-brightgreen)
 
